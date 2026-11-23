@@ -1,7 +1,7 @@
 #Menginput dan membaca data csv
 import pandas as pd
 
-df = pd.read_csv("PatientInfo.csv")
+df = pd.read_csv("data/PatientInfo.csv")
 print(df.shape)
 print(df.head())
 
